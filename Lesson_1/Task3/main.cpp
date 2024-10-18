@@ -4,26 +4,26 @@ using namespace std;
 
 int main()
 {
-    double a, b;
+    double num1, num2;
     cout << "first number: ";
-    cin >> a;
+    cin >> num1;
     cout << "second number: ";
-    cin >> b;
-    char d;
+    cin >> num2;
+    char operation;
     cout << "operation +,-,*,/: ";
-    cin >>d;
-    switch (d) {
+    cin >>operation;
+    switch (operation) {
     case '-':
-        cout <<"Result:" <<a-b;
+        cout <<"Result:" <<num1-num2;
         break;
     case '+':
-        cout <<"Result:" <<a+b;
+        cout <<"Result:" <<num1+num2;
         break;
     case '*':
-        cout <<"Result:" <<a*b;
+        cout <<"Result:" <<num1*num2;
         break;
     case '/':
-        cout <<"Result:" <<a/b;
+        cout <<"Result:" <<num1/num2;
         break;
     default:
         cout <<"ENTER THE OPERATION CORRECTLY";
